@@ -1,0 +1,123 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+    
+body{
+font-family:Arial, Helvetica, sans-serif;
+background-color:#d9e7ff;
+}
+    
+/*FOR THE HEADER*/
+    
+header{
+width:100%;
+background-color:red;
+color:white;
+text-align:center;
+padding:30px;
+}
+.header{
+    font-size: 40px;
+    font-weight: bold;
+}
+header:hover{
+    transform: scale(1.03);/* please comment*/
+    transition: 0.3s;
+}
+
+/*FOR THE NAVIGATION BAR*/
+    
+nav{
+background-color:black;
+}
+    
+ul{
+list-style-type:none;
+text-align:center;
+}
+    
+ul li{
+display:inline-block;
+}
+    
+ul li a{
+display:block;
+color:white;
+padding:15px 20px;
+text-decoration:none;
+font-weight:bold;
+}
+    
+ul li a:hover{
+background-color:gray;
+transform: scale(1.03);/* please comment*/
+transition: 0.3s;
+}
+    
+/*THE CONTENT*/
+    
+main{
+width:90%;
+margin:auto;
+padding:40px 0;
+text-align:center;
+}
+    
+/*FOR THE SECTIONS*/
+    
+section{
+width:45%;
+min-height:500px;
+border:3px solid black;
+border-radius: 15px;
+box-shadow: 5px 5px 15px gray;
+display:inline-block;
+vertical-align:top;
+margin:20px;
+padding:20px;
+background-size:cover;
+background-position:center;
+color:white;
+text-shadow:2px 2px 5px black;
+}
+section:hover{
+    transform: scale(1.03);/* please comment*/
+    transition: 0.3s;
+    
+}
+    
+/*FOR THE IMAGES*/
+    
+#godfather{
+background-image:url("68243c852a5bad001eb74a66.jpg");
+}
+    
+#mental{
+background-color:darkblue;
+}
+    
+/* FOR THE TEXT */
+    
+h2{
+margin-bottom:20px;
+font-size:30px;
+}
+    
+p{
+font-size:18px;
+line-height:1.6;
+}
+    
+    /* FOOTER */
+    
+footer{
+background-color:black;
+color:white;
+text-align:center;
+padding:20px;
+margin-top: 40px;
+font-weight: bold;
+} 
+    

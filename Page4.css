@@ -1,0 +1,165 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+        
+body{
+font-family:Arial, Helvetica, sans-serif;
+background-color:#d9e7ff;
+}
+        
+/*FOR THE HEADER*/
+        
+header{
+width:100%;
+    background-color:red;
+    color:white;
+    text-align:center;
+    padding:30px;
+    }
+header:hover{
+    transform: scale(1.03);/* please comment*/
+    transition: 0.3s;
+}
+    
+/*FOR THE NAVIGATION BAR*/
+        
+nav{
+    background-color:black;
+}
+        
+ul{
+    list-style-type:none;
+    text-align:center;
+}
+        
+ul li{
+    display:inline-block;
+}
+        
+ul li a{
+    display:block;
+    color:white;
+    padding:15px 20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+        
+ul li a:hover{
+    background-color:gray;
+    transform: scale(1.03);/* Obtained from (w3schools)*/
+    transition: 0.3s;
+}
+main{
+width:90%;
+max-width:800px;
+margin:40px auto;
+}
+    
+/* SURVEY BOX */
+    
+.survey-box{
+background-color:white;
+padding:30px;
+border-radius:15px;
+box-shadow:5px 5px 15px gray;
+}
+    
+.survey-box h2{
+text-align:center;
+font-size:35px;
+margin-bottom:15px;
+}
+    
+.intro{
+text-align:center;
+margin-bottom:30px;
+font-size:18px;
+line-height:1.6;
+}
+    
+    /* FORM */
+    
+.form-group{
+    margin-bottom:25px;
+}
+    
+label{
+    display:block;
+    margin-bottom:10px;
+    font-weight:bold;
+    font-size:18px;
+}
+    
+    /* INPUTS */
+    
+.text,select,textarea{
+    width:100%;
+    padding:12px;
+    border:2px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+.radio label, .checkbox label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.radio input, .checkbox input{
+    width: auto;
+    margin-right: 10px;
+}
+    
+textarea{ /*obtained from W3schools*/
+    resize:vertical;
+}
+.question1{
+    display:block;
+    margin-bottom:10px;
+    font-weight:bold;
+    font-size:20px;
+}
+    
+/* RADIO + CHECKBOX */
+    
+.radio-group label, .checkbox-group label{
+    display:block;
+    margin-bottom:10px;
+    font-weight:normal;
+}
+    
+.radio-group input,.checkbox-group input{
+    width:auto;
+    margin-right:10px;
+}
+    
+/* BUTTON */
+    
+button{
+    width:100%;
+    padding:15px;
+    background-color:red;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+    
+button:hover{
+    background-color:darkred;
+    transform:scale(1.02);
+}
+    
+    /* FOOTER */
+    
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+    

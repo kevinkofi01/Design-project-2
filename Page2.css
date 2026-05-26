@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+        
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#d9e7ff;
+}
+        
+    /*FOR THE HEADER*/
+        
+header{
+    width:100%;
+    background-color:red;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+header:hover{
+    transform: scale(1.03);/* please comment*/
+    transition: 0.3s;
+}
+    
+    /*FOR THE NAVIGATION BAR*/
+        
+nav{
+background-color:black;
+}
+        
+ul{
+    list-style-type:none;
+    text-align:center;
+}
+        
+ul li{
+    display:inline-block;
+}
+        
+ul li a{
+    display:block;
+    color:white;
+    padding:15px 20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+        
+ul li a:hover{
+    background-color:gray;
+    transform: scale(1.03);/* please comment*/
+    transition: 0.3s;
+}
+        
+    /* FOR THE TEXT */
+        
+h2{
+    margin-bottom:20px;
+    font-size:30px;
+    color: white;
+}
+        
+p{
+    font-size:18px;
+    line-height:1.6;
+    color: white;
+}
+        
+        /* FOOTER */
+        
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+/*Section*/
+section{
+    width: 45%;
+    min-height: 400px;
+    border-radius: 15px;
+    padding: 25px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 15px gray;
+    border: 3px solid gray;
+    transition: 0.3s;
+    text-shadow: 2px 2px 5px black;
+    display:inline-block; /*AI was used to format the images (w3schools)*/
+    vertical-align:top; /*AI was used to format the images(w3schools)*/
+    margin:20px; /*AI was used to format the images(w3schools)*/
+
+}
+section:hover{
+    transform: scale(1.03);
+}
+section h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+section p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+#TikTok{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)),
+    url("tiktok-icon-free-png.webp");
+}
+
+
+
+#Youtube{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)),
+    url("red-youtube-logo-social-media-logo_197792-1803.avif");
+}
+
+
+
+
+#Snapchat{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)),
+    url("twitter.png");
+}
+
+
+
+
+#Instagram{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)),
+    url("instagram-logo_1199-122.avif");
+}
+
+
+
+
+#Twitter{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)),
+    url("360_F_548515234_u57grkSpKwvOBwTAHvhXveqnafh6BtNA.jpg");
+}
+
+
+
+#Discord{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)),
+    url("images.png");
+}
+
+
+
